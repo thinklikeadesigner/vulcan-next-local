@@ -1,0 +1,30 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "search.exclude": {
+    "cypress/examples/": true
+  },
+  "files.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+    //"**/node_modules": true, // this excludes all folders 
+    // named "node_modules" from 
+    // the explore tree
+    ".yalc": true,
+    ".mongo": true
+  },
+  // syntax highlight .env
+  "files.associations": {
+    "*.env.development": "env",
+    "*.env.production": "env",
+    "*.env.development.local": "env",
+    "*.env.production.local": "env",
+    ".env.local": "env",
+    ".env.test": "env",
+    ".env.test.local": "env"
+  }
+}
